@@ -54,7 +54,7 @@ This will never be finished or have real releases, git is it.
 Have fun. There is probably XSS everywhere atm. I have been lazy. :)
 
 
-Also, you are going to see a lot of crappy code :/
+Also, you are going to see a lot of crappy code (mainly in the UI) :/
 
 Usually my testbed is a vulnerable FreeNAS release, an altered (TWiki
 removed) Metasploitable2, avulnerable Windows XP machine, and BadStore, 
