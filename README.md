@@ -11,7 +11,7 @@ This is essentially my automated security playground. Beware.
 
 Current tools supported to certain extents are nmap, nikto, smbclient,
 onesixtyone, Metasploit/Pro, Nessus, OpenVAS, Nexpose, Wapiti, DSXS,
-SQLMap, just to name a few. Many more are expected.
+SQLMap, and SSLScan just to name a few. Many more are expected.
 
 
 Currently the database schemas are stored in
