@@ -55,3 +55,7 @@ Have fun. There is probably XSS everywhere atm. I have been lazy. :)
 
 
 Also, you are going to see a lot of crappy code :/
+
+Usually my testbed is a vulnerable FreeNAS release, an altered (TWiki
+removed) Metasploitable2, avulnerable Windows XP machine, and BadStore, 
+though it can depend on what I am testing.
