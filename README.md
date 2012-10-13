@@ -30,6 +30,9 @@ other tools (wapiti -> sqlmap, wapiti -> dsxs,
 nessus/nexpose/openvas/wapiti -> metasploit, etc...).
 
 
+The service also knows which tools are appropriate for which services,
+it is not based on ports.
+
 Using FluentNHibernate (and thus NHibernate) and Postgresql, development has been solely on monodevelop/vim on various linuxes.
 
 
