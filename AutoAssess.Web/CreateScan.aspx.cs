@@ -44,7 +44,7 @@ namespace AutoAssess.Web
 			
 			MakeScan(parms);
 			
-			Response.Redirect("/ThankYou.aspx");
+			Response.Redirect("/Default.aspx");
 		}
 		
 		protected void btnBasicWebAssessment_Click(object sender, EventArgs e)
@@ -58,7 +58,7 @@ namespace AutoAssess.Web
 			
 			MakeScan(parms);
 			
-			Response.Redirect("/ThankYou.aspx");
+			Response.Redirect("/Default.aspx");
 		}
 		
 		protected void btnBasicVulnAssessment_Click(object sender, EventArgs e)
@@ -77,7 +77,7 @@ namespace AutoAssess.Web
 			
 			MakeScan(parms);
 			
-			Response.Redirect("/ThankYou.aspx");
+			Response.Redirect("/Default.aspx");
 		}
 		
 		protected void btnFullVulnAssessment_Click(object sender, EventArgs e)
@@ -95,7 +95,7 @@ namespace AutoAssess.Web
 			
 			MakeScan(parms);
 			
-			Response.Redirect("/ThankYou.aspx");
+			Response.Redirect("/Default.aspx");
 		}
 		
 		private void MakeScan(Dictionary<string, string> opts)

@@ -21,10 +21,6 @@
 					<li>Remote Command Execution</li>
 				</ul>
 			</div>
-			<asp:RadioButtonList id="rblWebAssessmentOptions" runat="server">
-				<asp:ListItem Selected="true" Text="Single-Run: $5.99" />
-				<asp:ListItem Text="Recurring: $3.99 (for 6 months)" />
-			</asp:RadioButtonList>
 		<br />
 			<div style="width: 230px; text-align: right;">
 				<asp:Button id="btnBasicWebAssessment" runat="server" Text="Schedule Assessment" OnClick="btnBasicWebAssessment_Click" />
@@ -41,13 +37,9 @@
 		    <br />
 			<br /><br /><br />
 			<br /><br />
-			<asp:RadioButtonList id="rblBruteforceOptions" runat="server">
-				<asp:ListItem Selected="true" Text="Single-Run: $5.99" />
-				<asp:ListItem Text="Recurring: $3.99 (for 6 months)" />
-			</asp:RadioButtonList>
 		<br />
 			<div style="width: 230px; text-align: right;">
-				<asp:Button id="btnBruteforce" runat="server" Text="Coming soon!" Enabled="false" />
+				<asp:Button id="btnBruteforce" runat="server" Text="Schedule Assessment" />
 			</div>
 		</div>
 		<div class="scanPlan" style="float: right;background:#fff;">
@@ -61,16 +53,10 @@
 				</ul>
 			</div>
 			<br /><br />
-			<asp:RadioButtonList id="rblGeneralAssessmentOptions" runat="server">
-				<asp:ListItem Selected="true" Text="Single-Run: $5.99" />
-				<asp:ListItem Text="Recurring: $3.99 (for 6 months)" />
-			</asp:RadioButtonList>
 		<br />
 			<div style="width: 230px; text-align: right;">
 				<asp:Button id="btnBasicVulnAssessment" runat="server" Text="Schedule Assessment" OnClick="btnBasicVulnAssessment_Click" />
 			</div>
 		</div>	
-		
-		<p>* Recurring scans will happen every 30 days after payment is received.</p>
 		</fieldset>
 </asp:Content>

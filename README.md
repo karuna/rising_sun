@@ -37,9 +37,18 @@ I use my nessus-sharp, metasploit-sharp, openvas-sharp, and
 nexpose-sharp libs to automate the respective tools. clam-sharp will fit in here soon.
 
 
+In order to allow metasploit to remotely absorb reports, I mounted the
+/tmp of the remote machine to a local directory using sshfs. This is 
+hardcoded atm.
+
+
 I keep documentation, but it isn't great. See en_html/
 
 
 This will never be finished or have real releases, git is it.
 
-Have fun. :)
+
+Have fun. There is probably XSS everywhere atm. I have been lazy. :)
+
+
+Also, you are going to see a lot of crappy code :/

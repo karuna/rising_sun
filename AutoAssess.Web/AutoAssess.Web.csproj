@@ -102,9 +102,7 @@
     <Content Include="Admin\ManageUser.aspx" />
     <Content Include="Admin\Impersonate.aspx" />
     <Content Include="AddHostToProfile.aspx" />
-    <Content Include="CreditCardPayment.aspx" />
     <Content Include="Remediation.aspx" />
-    <Content Include="ThankYou.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Global.asax.cs">
@@ -277,23 +275,11 @@
     <Compile Include="AddHostToProfile.aspx.designer.cs">
       <DependentUpon>AddHostToProfile.aspx</DependentUpon>
     </Compile>
-    <Compile Include="CreditCardPayment.aspx.cs">
-      <DependentUpon>CreditCardPayment.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="CreditCardPayment.aspx.designer.cs">
-      <DependentUpon>CreditCardPayment.aspx</DependentUpon>
-    </Compile>
     <Compile Include="Remediation.aspx.cs">
       <DependentUpon>Remediation.aspx</DependentUpon>
     </Compile>
     <Compile Include="Remediation.aspx.designer.cs">
       <DependentUpon>Remediation.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="ThankYou.aspx.cs">
-      <DependentUpon>ThankYou.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="ThankYou.aspx.designer.cs">
-      <DependentUpon>ThankYou.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
