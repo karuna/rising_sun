@@ -1,0 +1,32 @@
+<Type Name="NexposeObjectManager11" FullName="AutoAssess.Data.Nexpose.NexposeObjectManager11">
+  <TypeSignature Language="C#" Value="public class NexposeObjectManager11" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit NexposeObjectManager11 extends System.Object" />
+  <AssemblyInfo>
+    <AssemblyName>AutoAssess.Data.Nexpose</AssemblyName>
+    <AssemblyVersion>1.0.4669.2843</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public NexposeObjectManager11 ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.4657.36821</AssemblyVersion>
+        <AssemblyVersion>1.0.4669.2843</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

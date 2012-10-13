@@ -1,0 +1,46 @@
+<Type Name="MasterPage" FullName="AutoAssess.Web.Admin.MasterPage">
+  <TypeSignature Language="C#" Value="public class MasterPage : System.Web.UI.MasterPage" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit MasterPage extends System.Web.UI.MasterPage" />
+  <AssemblyInfo>
+    <AssemblyName>AutoAssess.Web.Admin</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Web.UI.MasterPage</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public MasterPage ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="contentPlaceHolder">
+      <MemberSignature Language="C#" Value="protected System.Web.UI.WebControls.ContentPlaceHolder contentPlaceHolder;" />
+      <MemberSignature Language="ILAsm" Value=".field family class System.Web.UI.WebControls.ContentPlaceHolder contentPlaceHolder" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Web.UI.WebControls.ContentPlaceHolder</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

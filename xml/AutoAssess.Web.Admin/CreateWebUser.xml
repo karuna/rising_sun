@@ -1,0 +1,127 @@
+<Type Name="CreateWebUser" FullName="AutoAssess.Web.Admin.CreateWebUser">
+  <TypeSignature Language="C#" Value="public class CreateWebUser : System.Web.UI.Page" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit CreateWebUser extends System.Web.UI.Page" />
+  <AssemblyInfo>
+    <AssemblyName>AutoAssess.Web.Admin</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Web.UI.Page</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public CreateWebUser ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="btnCreateUser">
+      <MemberSignature Language="C#" Value="protected System.Web.UI.WebControls.Button btnCreateUser;" />
+      <MemberSignature Language="ILAsm" Value=".field family class System.Web.UI.WebControls.Button btnCreateUser" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Web.UI.WebControls.Button</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="btnCreateUser_Click">
+      <MemberSignature Language="C#" Value="protected void btnCreateUser_Click (object sender, EventArgs e);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig instance void btnCreateUser_Click(object sender, class System.EventArgs e) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="sender" Type="System.Object" />
+        <Parameter Name="e" Type="System.EventArgs" />
+      </Parameters>
+      <Docs>
+        <param name="sender">To be added.</param>
+        <param name="e">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="form1">
+      <MemberSignature Language="C#" Value="protected System.Web.UI.HtmlControls.HtmlForm form1;" />
+      <MemberSignature Language="ILAsm" Value=".field family class System.Web.UI.HtmlControls.HtmlForm form1" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Web.UI.HtmlControls.HtmlForm</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="txtEmailAddress">
+      <MemberSignature Language="C#" Value="protected System.Web.UI.WebControls.TextBox txtEmailAddress;" />
+      <MemberSignature Language="ILAsm" Value=".field family class System.Web.UI.WebControls.TextBox txtEmailAddress" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Web.UI.WebControls.TextBox</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="txtPassword">
+      <MemberSignature Language="C#" Value="protected System.Web.UI.WebControls.TextBox txtPassword;" />
+      <MemberSignature Language="ILAsm" Value=".field family class System.Web.UI.WebControls.TextBox txtPassword" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Web.UI.WebControls.TextBox</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="txtUsername">
+      <MemberSignature Language="C#" Value="protected System.Web.UI.WebControls.TextBox txtUsername;" />
+      <MemberSignature Language="ILAsm" Value=".field family class System.Web.UI.WebControls.TextBox txtUsername" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Web.UI.WebControls.TextBox</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

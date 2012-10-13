@@ -1,0 +1,53 @@
+﻿<Properties GitUserInfo="UsingGIT">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="AutoAssess.Web.API/GetOpenVASConfigs.ashx.cs">
+    <Files>
+      <File FileName="AutoAssess.Data.BusinessObjects/Scan.cs" Line="12" Column="7" />
+      <File FileName="autoassess_service/Main.cs" Line="58" Column="4" />
+      <File FileName="AutoAssess.Web/Registration.aspx.cs" Line="89" Column="44" />
+      <File FileName="AutoAssess.Web/CreateScan.aspx.cs" Line="1" Column="1" />
+      <File FileName="AutoAssess.Web/CreateProfile.aspx.cs" Line="198" Column="99" />
+      <File FileName="AutoAssess.Web/AddHostToProfile.aspx.cs" Line="168" Column="100" />
+      <File FileName="AutoAssess.Web/web.config" Line="31" Column="20" />
+      <File FileName="AutoAssess.Data.OpenVAS.BusinessObjects/OpenVASObjectManager.cs" Line="8" Column="45" />
+      <File FileName="AutoAssess.Data.Nessus.BusinessObjects/NessusObjectManager.cs" Line="11" Column="44" />
+      <File FileName="AutoAssess.Web.API/GetNessusPolicies.ashx.cs" Line="41" Column="32" />
+      <File FileName="AutoAssess.Web.API/GetOpenVASConfigs.ashx.cs" Line="35" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State expanded="True" selected="True" />
+      </Pad>
+      <Pad Id="ClassPad">
+        <State expanded="True" selected="True" />
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State>
+          <Value>this.CurrentResults.PersistentHosts</Value>
+          <Value>ID</Value>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/home/bperry/External/Backup/bperry/Projects/autoassess_service/Example.OpenVAS/Default.aspx.cs" line="32" />
+      <Breakpoint file="/home/bperry/External/Backup/bperry/Projects/autoassess_service/AutoAssess.Data.OpenVAS/OpenVASManager.cs" line="1190" />
+      <Breakpoint file="/home/bperry/External/Backup/bperry/Projects/autoassess_service/AutoAssess.Data/Scan.cs" line="126" />
+      <Breakpoint file="/home/bperry/External/Backup/bperry/Projects/autoassess_service/AutoAssess.Data.OpenVAS/OpenVASManagerSession.cs" line="120" />
+      <Breakpoint file="/home/bperry/External/Backup/bperry/Projects/autoassess_service/AutoAssess.Data.OpenVAS/OpenVASManagerSession.cs" line="163" />
+      <Breakpoint file="/home/bperry/External/Backup/bperry/Projects/autoassess_service/AutoAssess.Data.OpenVAS/OpenVASManagerSession.cs" line="193" />
+      <Breakpoint file="/home/bperry/External/Backup/bperry/Projects/autoassess_service/AutoAssess.Data/ToolResults/SQLMapResults.cs" line="96" />
+      <Breakpoint file="/home/bperry/External/Backup/bperry/Projects/autoassess_service/AutoAssess.Web.API/GetProfile.ashx.cs" line="38" />
+      <Breakpoint file="/home/bperry/External/Backup/bperry/Projects/autoassess_service/AutoAssess.Data.PersistentObjects/PersistentNMapHost.cs" line="41" />
+      <Breakpoint file="/home/bperry/External/Backup/bperry/Projects/autoassess_service/AutoAssess.Web/ViewProfiles.aspx.cs" line="51" />
+      <Breakpoint file="/home/bperry/Projects/autoassess_service/AutoAssess.Web.API/GetNexposeEngines.ashx.cs" line="39" />
+      <Breakpoint file="/home/bperry/Projects/autoassess_service/AutoAssess.Web.API/CreateScan.ashx.cs" line="22" />
+      <Breakpoint file="/home/bperry/Projects/autoassess_service/AutoAssess.Data.PersistentObjects/PersistentWapitiBug.cs" line="19" />
+      <Breakpoint file="/home/bperry/Projects/autoassess_service/AutoAssess.Data.Nessus.BusinessObjects/NessusObjectManager.cs" line="72" />
+      <Breakpoint file="/home/bperry/Projects/autoassess_service/AutoAssess.Data.Nessus.BusinessObjects/NessusObjectManager.cs" line="72" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <AuthorInfo Name="Brandon Perry" Email="bperry.volatile@gmail.com" Copyright="Brandon Perry" Company="OpenDiagnostics" Trademark="" />
+</Properties>

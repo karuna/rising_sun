@@ -1,0 +1,48 @@
+<Type Name="MetasploitModuleType" FullName="AutoAsses.Data.Metasploit.MetasploitModuleType">
+  <TypeSignature Language="C#" Value="public enum MetasploitModuleType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MetasploitModuleType extends System.Enum" />
+  <AssemblyInfo>
+    <AssemblyName>AutoAssess.Data.Metasploit.Objects</AssemblyName>
+    <AssemblyVersion>1.0.4657.36822</AssemblyVersion>
+    <AssemblyVersion>1.0.4669.2845</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Auxiliary">
+      <MemberSignature Language="C#" Value="Auxiliary" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype AutoAsses.Data.Metasploit.MetasploitModuleType Auxiliary = int32(2)" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.4657.36822</AssemblyVersion>
+        <AssemblyVersion>1.0.4669.2845</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>AutoAsses.Data.Metasploit.MetasploitModuleType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Exploit">
+      <MemberSignature Language="C#" Value="Exploit" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype AutoAsses.Data.Metasploit.MetasploitModuleType Exploit = int32(0)" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.4657.36822</AssemblyVersion>
+        <AssemblyVersion>1.0.4669.2845</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>AutoAsses.Data.Metasploit.MetasploitModuleType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

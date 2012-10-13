@@ -1,0 +1,266 @@
+<Type Name="CreateScan" FullName="AutoAssess.Web.Admin.CreateScan">
+  <TypeSignature Language="C#" Value="public class CreateScan : System.Web.UI.Page" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit CreateScan extends System.Web.UI.Page" />
+  <AssemblyInfo>
+    <AssemblyName>AutoAssess.Web.Admin</AssemblyName>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Web.UI.Page</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public CreateScan ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="btnCreateScan">
+      <MemberSignature Language="C#" Value="protected System.Web.UI.WebControls.Button btnCreateScan;" />
+      <MemberSignature Language="ILAsm" Value=".field family class System.Web.UI.WebControls.Button btnCreateScan" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Web.UI.WebControls.Button</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="btnCreateScan_Click">
+      <MemberSignature Language="C#" Value="protected void btnCreateScan_Click (object sender, EventArgs e);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig instance void btnCreateScan_Click(object sender, class System.EventArgs e) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="sender" Type="System.Object" />
+        <Parameter Name="e" Type="System.EventArgs" />
+      </Parameters>
+      <Docs>
+        <param name="sender">To be added.</param>
+        <param name="e">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="chkBruteforce">
+      <MemberSignature Language="C#" Value="protected System.Web.UI.WebControls.CheckBox chkBruteforce;" />
+      <MemberSignature Language="ILAsm" Value=".field family class System.Web.UI.WebControls.CheckBox chkBruteforce" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Web.UI.WebControls.CheckBox</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="chkDSXS">
+      <MemberSignature Language="C#" Value="protected System.Web.UI.WebControls.CheckBox chkDSXS;" />
+      <MemberSignature Language="ILAsm" Value=".field family class System.Web.UI.WebControls.CheckBox chkDSXS" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Web.UI.WebControls.CheckBox</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="chkMetasploit">
+      <MemberSignature Language="C#" Value="protected System.Web.UI.WebControls.CheckBox chkMetasploit;" />
+      <MemberSignature Language="ILAsm" Value=".field family class System.Web.UI.WebControls.CheckBox chkMetasploit" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Web.UI.WebControls.CheckBox</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="chkNessus">
+      <MemberSignature Language="C#" Value="protected System.Web.UI.WebControls.CheckBox chkNessus;" />
+      <MemberSignature Language="ILAsm" Value=".field family class System.Web.UI.WebControls.CheckBox chkNessus" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Web.UI.WebControls.CheckBox</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="chkNexpose">
+      <MemberSignature Language="C#" Value="protected System.Web.UI.WebControls.CheckBox chkNexpose;" />
+      <MemberSignature Language="ILAsm" Value=".field family class System.Web.UI.WebControls.CheckBox chkNexpose" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Web.UI.WebControls.CheckBox</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="chkOpenVAS">
+      <MemberSignature Language="C#" Value="protected System.Web.UI.WebControls.CheckBox chkOpenVAS;" />
+      <MemberSignature Language="ILAsm" Value=".field family class System.Web.UI.WebControls.CheckBox chkOpenVAS" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Web.UI.WebControls.CheckBox</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="chkSQLMap">
+      <MemberSignature Language="C#" Value="protected System.Web.UI.WebControls.CheckBox chkSQLMap;" />
+      <MemberSignature Language="ILAsm" Value=".field family class System.Web.UI.WebControls.CheckBox chkSQLMap" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Web.UI.WebControls.CheckBox</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ddlUser">
+      <MemberSignature Language="C#" Value="protected System.Web.UI.WebControls.DropDownList ddlUser;" />
+      <MemberSignature Language="ILAsm" Value=".field family class System.Web.UI.WebControls.DropDownList ddlUser" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Web.UI.WebControls.DropDownList</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="form1">
+      <MemberSignature Language="C#" Value="protected System.Web.UI.HtmlControls.HtmlForm form1;" />
+      <MemberSignature Language="ILAsm" Value=".field family class System.Web.UI.HtmlControls.HtmlForm form1" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Web.UI.HtmlControls.HtmlForm</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OnInit">
+      <MemberSignature Language="C#" Value="protected override void OnInit (EventArgs e);" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void OnInit(class System.EventArgs e) cil managed" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="e" Type="System.EventArgs" />
+      </Parameters>
+      <Docs>
+        <param name="e">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="txtHosts">
+      <MemberSignature Language="C#" Value="protected System.Web.UI.WebControls.TextBox txtHosts;" />
+      <MemberSignature Language="ILAsm" Value=".field family class System.Web.UI.WebControls.TextBox txtHosts" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Web.UI.WebControls.TextBox</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="txtProfileName">
+      <MemberSignature Language="C#" Value="protected System.Web.UI.WebControls.TextBox txtProfileName;" />
+      <MemberSignature Language="ILAsm" Value=".field family class System.Web.UI.WebControls.TextBox txtProfileName" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Web.UI.WebControls.TextBox</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="txtScanName">
+      <MemberSignature Language="C#" Value="protected System.Web.UI.WebControls.TextBox txtScanName;" />
+      <MemberSignature Language="ILAsm" Value=".field family class System.Web.UI.WebControls.TextBox txtScanName" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>0.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Web.UI.WebControls.TextBox</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

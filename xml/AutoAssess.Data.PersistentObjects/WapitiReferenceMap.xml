@@ -1,0 +1,36 @@
+<Type Name="WapitiReferenceMap" FullName="AutoAssess.Data.PersistentObjects.WapitiReferenceMap">
+  <TypeSignature Language="C#" Value="public class WapitiReferenceMap : FluentNHibernate.Mapping.ClassMap&lt;AutoAssess.Data.PersistentObjects.PersistentWapitiReference&gt;" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit WapitiReferenceMap extends FluentNHibernate.Mapping.ClassMap`1&lt;class AutoAssess.Data.PersistentObjects.PersistentWapitiReference&gt;" />
+  <AssemblyInfo>
+    <AssemblyName>AutoAssess.Data</AssemblyName>
+    <AssemblyVersion>1.0.4657.36825</AssemblyVersion>
+    <AssemblyVersion>1.0.4669.3585</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>FluentNHibernate.Mapping.ClassMap&lt;AutoAssess.Data.PersistentObjects.PersistentWapitiReference&gt;</BaseTypeName>
+    <BaseTypeArguments>
+      <BaseTypeArgument TypeParamName="!0">AutoAssess.Data.PersistentObjects.PersistentWapitiReference</BaseTypeArgument>
+    </BaseTypeArguments>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public WapitiReferenceMap ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyVersion>1.0.4657.36825</AssemblyVersion>
+        <AssemblyVersion>1.0.4669.3585</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

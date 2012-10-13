@@ -1,0 +1,15 @@
+<Type Name="IMetasploitProxy" FullName="AutoAssess.Data.Metasploit.BusinessObjects.IMetasploitProxy">
+  <TypeSignature Language="C#" Value="public interface IMetasploitProxy" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IMetasploitProxy" />
+  <AssemblyInfo>
+    <AssemblyName>AutoAssess.Data.Metasploit.Objects</AssemblyName>
+    <AssemblyVersion>1.0.4657.36822</AssemblyVersion>
+    <AssemblyVersion>1.0.4669.2845</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members />
+</Type>
