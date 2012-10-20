@@ -79,16 +79,9 @@ namespace autoassess_service
 					conf.Add ("whoisPath", ConfigurationManager.AppSettings ["whoisPath"]);
 					conf.Add ("profileID", profile.ID.ToString());
 					conf.Add ("API", ConfigurationManager.AppSettings["API"]);
-					conf.Add ("UserID", ConfigurationManager.AppSettings["userID"]);
+					conf.Add ("UserID", ConfigurationManager.AppSettings["UserID"]);
 					
 					profile.Configuration = conf;
-					
-					string newRange = string.Empty;
-					
-					foreach (var host in profile.ProfileHosts)
-						newRange += host.IPv4Address + " ";
-					
-					profile.Range = newRange;
 					
 					profile.Run (out toolResults);
 					
@@ -97,7 +90,24 @@ namespace autoassess_service
 					foreach (PersistentNMapHost host in profile.CurrentResults.PersistentHosts) {
 						host.CleanHost ();
 						
-						host.ProfileHost = profile.ProfileHosts.Where (ph => ph.IPv4Address == host.IPAddressv4).Single ();
+						if ( profile.ProfileHosts.Where (ph => ph.IPv4Address == host.IPAddressv4).Count() == 0)
+						{
+							ProfileHost h = new ProfileHost();
+							
+							h.Name = host.Hostname;
+							h.IPv4Address = host.IPAddressv4;
+							
+							host.ProfileHost = new PersistentProfileHost(h);
+							host.ProfileHost.SetCreationInfo(Guid.Empty);
+							host.ProfileHost.ParentProfile = profile;
+							session.Save(host.ProfileHost);
+						}
+						else if ( profile.ProfileHosts.Where (ph => ph.IPv4Address == host.IPAddressv4).Count() ==1)
+						{	
+							host.ProfileHost = profile.ProfileHosts.Where (ph => ph.IPv4Address == host.IPAddressv4).Single ();
+						}
+						else
+							throw new Exception("duplicate hosts");
 						
 						foreach (PersistentPort port in host.PersistentPorts) {
 							port.CleanPort ();

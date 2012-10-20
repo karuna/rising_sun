@@ -45,29 +45,14 @@ namespace AutoAssess.Web.API
 				profile.WebUserID = new Guid(context.Request["WebUserID"]);
 				profile.Description = context.Request["ProfileDescription"];
 				profile.Name = context.Request["ProfileName"];
-				profile.Range = context.Request["ProfileDomain"];
-				profile.Domain = context.Request["ProfileDomain"];
-				profile.RunEvery = new TimeSpan(24*(int.Parse(context.Request["ProfileSchedule"])), 0, 0); //30 days
+				profile.Range = context.Request["ProfileRange"];
+				profile.RunEvery = new TimeSpan(24*(int.Parse(context.Request["ProfileSchedule"])), 0, 0); 
 				profile.RunAfter = DateTime.Now;
 				profile.HasRun = false;
 				
 				profile.SetCreationInfo(userID);
 				
 				s.Save(profile);
-				
-				foreach (string h in profile.Range.Split(','))
-				{
-					PersistentProfileHost host = new PersistentProfileHost(new Guid(context.Request["WebUserID"]));
-					host.ParentProfile = profile;
-					host.IPv4Address = Dns.GetHostEntry(h).AddressList[0].ToString();
-					host.VerifiedByFile = true;
-					host.VerifiedByWhois = true;
-					host.VerifiedOn = DateTime.Now;
-					host.WasManuallyVerified = false;
-					host.IsVerified = true;
-					
-					s.Save(host);
-				}
 				
 				try
 				{

@@ -19,15 +19,9 @@ namespace AutoAssess.Web {
 		
 		protected System.Web.UI.WebControls.TextBox txtScanName;
 		
-		protected System.Web.UI.WebControls.RadioButtonList rblWebAssessmentOptions;
-		
 		protected System.Web.UI.WebControls.Button btnBasicWebAssessment;
 		
-		protected System.Web.UI.WebControls.RadioButtonList rblBruteforceOptions;
-		
 		protected System.Web.UI.WebControls.Button btnBruteforce;
-		
-		protected System.Web.UI.WebControls.RadioButtonList rblGeneralAssessmentOptions;
 		
 		protected System.Web.UI.WebControls.Button btnBasicVulnAssessment;
 	}

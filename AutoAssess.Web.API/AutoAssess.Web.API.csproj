@@ -95,7 +95,6 @@
     <Content Include="GetProfileHosts.ashx" />
     <Content Include="CreateProfileHost.ashx" />
     <Content Include="CreateEvent.ashx" />
-    <Content Include="Badge.ashx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Global.asax.cs">
@@ -191,9 +190,6 @@
     </Compile>
     <Compile Include="CreateEvent.ashx.cs">
       <DependentUpon>CreateEvent.ashx</DependentUpon>
-    </Compile>
-    <Compile Include="Badge.ashx.cs">
-      <DependentUpon>Badge.ashx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

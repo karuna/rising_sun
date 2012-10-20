@@ -101,7 +101,6 @@
     <Content Include="Admin\ManageUsers.aspx" />
     <Content Include="Admin\ManageUser.aspx" />
     <Content Include="Admin\Impersonate.aspx" />
-    <Content Include="AddHostToProfile.aspx" />
     <Content Include="Remediation.aspx" />
   </ItemGroup>
   <ItemGroup>
@@ -268,12 +267,6 @@
     </Compile>
     <Compile Include="Admin\Impersonate.aspx.designer.cs">
       <DependentUpon>Impersonate.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="AddHostToProfile.aspx.cs">
-      <DependentUpon>AddHostToProfile.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="AddHostToProfile.aspx.designer.cs">
-      <DependentUpon>AddHostToProfile.aspx</DependentUpon>
     </Compile>
     <Compile Include="Remediation.aspx.cs">
       <DependentUpon>Remediation.aspx</DependentUpon>

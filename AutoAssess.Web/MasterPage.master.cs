@@ -62,7 +62,6 @@ namespace AutoAssess.Web
 				
 				divMenuItems.InnerHtml = "<div class=\"menuItem\"><a href=\"/\">Home</a></div>";
 				divMenuItems.InnerHtml += "<div class=\"menuItem\" onmouseover=\"showProfiles()\"><a href=\"/ViewProfiles.aspx\">Profiles</a></div>"; 
-				divMenuItems.InnerHtml += "<div class=\"menuItem\"><a href=\"/Remediation.aspx\">Remediation</a></div>"; 
 				
 				string html = string.Empty; //I really dislike this.
 				foreach (PersistentProfile profile in profiles)

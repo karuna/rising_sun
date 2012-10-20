@@ -13,51 +13,11 @@ namespace AutoAssess.Web {
 	
 	public partial class CreateProfile {
 		
-		protected System.Web.UI.HtmlControls.HtmlGenericControl divCreateProfileExplanation;
+		protected System.Web.UI.WebControls.TextBox txtName;
 		
-		protected System.Web.UI.WebControls.Button btnStartVerification;
+		protected System.Web.UI.WebControls.TextBox txtRange;
 		
-		protected System.Web.UI.HtmlControls.HtmlGenericControl divProfileDetails;
-		
-		protected System.Web.UI.WebControls.TextBox txtProfileName;
-		
-		protected System.Web.UI.WebControls.TextBox txtProfileDescription;
-		
-		protected System.Web.UI.WebControls.RadioButtonList rblProfileSchedule;
-		
-		protected System.Web.UI.WebControls.Button btnSetProfileDetails;
-		
-		protected System.Web.UI.HtmlControls.HtmlGenericControl divAddHostContainer;
-		
-		protected System.Web.UI.WebControls.TextBox txtHostURL;
-		
-		protected System.Web.UI.WebControls.Button btnAddHost;
-		
-		protected System.Web.UI.HtmlControls.HtmlGenericControl divMultiEmailContainer;
-		
-		protected System.Web.UI.WebControls.Label lblMultiEmailContainerHeader;
-		
-		protected System.Web.UI.WebControls.DropDownList ddlWhoisEmail;
-		
-		protected System.Web.UI.WebControls.Button btnSendVerification;
-		
-		protected System.Web.UI.WebControls.TextBox txtEmailKey;
-		
-		protected System.Web.UI.WebControls.Button btnVerifyEmailKey;
-		
-		protected System.Web.UI.HtmlControls.HtmlGenericControl divVerificationFileContainer;
-		
-		protected System.Web.UI.WebControls.Label lblVerificationFileHeader;
-		
-		protected System.Web.UI.WebControls.Label lblVerificationURL;
-		
-		protected System.Web.UI.WebControls.Label lblFilename;
-		
-		protected System.Web.UI.WebControls.Label lblFileContents;
-		
-		protected System.Web.UI.WebControls.Button btnVerifyFile;
-		
-		protected System.Web.UI.HtmlControls.HtmlGenericControl divFinishUpContainer;
+		protected System.Web.UI.WebControls.TextBox txtDesc;
 		
 		protected System.Web.UI.WebControls.Button btnCreateProfile;
 	}

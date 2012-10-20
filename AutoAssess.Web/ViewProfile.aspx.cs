@@ -47,6 +47,7 @@ namespace AutoAssess.Web
 			}
 			
 			//whee
+			//should be eager loading these.
 			foreach (PersistentNMapHost host in profile.CurrentResults.PersistentHosts)
 			{
 				foreach (PersistentPort port in host.PersistentPorts)
@@ -63,34 +64,46 @@ namespace AutoAssess.Web
 				.List<PersistentScan>()
 				.LastOrDefault();
 			
-			PersistentNessusScan nssScan = this.CurrentScanSession.CreateCriteria<PersistentNessusScan>()
-				.Add(Restrictions.Eq("ParentScanID", latestScan.ID))
-				.List<PersistentNessusScan>()
-				.SingleOrDefault();
+			
+			PersistentNessusScan nssScan = null;
+			if (latestScan != null)
+				nssScan = this.CurrentScanSession.CreateCriteria<PersistentNessusScan>()
+					.Add(Restrictions.Eq("ParentScanID", latestScan.ID))
+					.List<PersistentNessusScan>()
+					.SingleOrDefault();
 			
 			if (nssScan != null)
 				isNessus = true;
 			
-			PersistentOpenVASScan ovasScan = this.CurrentScanSession.CreateCriteria<PersistentOpenVASScan>()
-				.Add(Restrictions.Eq("ParentScanID", latestScan.ID))
-				.List<PersistentOpenVASScan>()
-				.SingleOrDefault();
+			PersistentOpenVASScan ovasScan = null;
+			
+			if (latestScan != null)
+				ovasScan = this.CurrentScanSession.CreateCriteria<PersistentOpenVASScan>()
+					.Add(Restrictions.Eq("ParentScanID", latestScan.ID))
+					.List<PersistentOpenVASScan>()
+					.SingleOrDefault();
 			
 			if (ovasScan != null)
 				isOpenvas = true;
 			
-			PersistentNexposeScan nxScan = this.CurrentScanSession.CreateCriteria<PersistentNexposeScan>()
-				.Add(Restrictions.Eq ("ParentScanID", latestScan.ID))
-				.List<PersistentNexposeScan>()
-				.SingleOrDefault();
+			PersistentNexposeScan nxScan = null;
+			
+			if (latestScan != null)
+				nxScan = this.CurrentScanSession.CreateCriteria<PersistentNexposeScan>()
+					.Add(Restrictions.Eq ("ParentScanID", latestScan.ID))
+					.List<PersistentNexposeScan>()
+					.SingleOrDefault();
 			
 			if (nxScan != null)
 				isNexpose = true;
 			
-			PersistentMetasploitScan msfScan = this.CurrentScanSession.CreateCriteria<PersistentMetasploitScan>()
-				.Add(Restrictions.Eq ("ParentScanID", latestScan.ID))
-				.List<PersistentMetasploitScan>()
-				.SingleOrDefault();
+			PersistentMetasploitScan msfScan = null;
+			
+			if (latestScan != null)
+				msfScan = this.CurrentScanSession.CreateCriteria<PersistentMetasploitScan>()
+					.Add(Restrictions.Eq ("ParentScanID", latestScan.ID))
+					.List<PersistentMetasploitScan>()
+					.SingleOrDefault();
 			
 			if (msfScan != null)
 				isMetasploit = true;

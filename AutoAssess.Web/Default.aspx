@@ -3,11 +3,6 @@
 	
 	<div class="dashboardItem" style="background:#fff;vertical-align:top;">
 		<div class="dashboardItemHeader">At a glance</div>
-		<p>Total number of profiles:&nbsp;<asp:Label id="lblNumberOfProfiles"  runat="server"/>&nbsp;(Max. 3)</p>
-		<br />
-		<p>Average health of profiles:&nbsp;<asp:Label id="lblProfilesHealth" runat="server" /></p>
-		<br />
-		<p>Coverage:&nbsp;<asp:Label id="lblCoverage" runat="server" /></p>
 	</div>
 	
 	<div class="dashboardItem" style="background:#fff;">	

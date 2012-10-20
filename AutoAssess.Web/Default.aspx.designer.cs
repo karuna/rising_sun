@@ -15,12 +15,6 @@ namespace AutoAssess.Web {
 		
 		protected System.Web.UI.WebControls.Content contentDefault;
 		
-		protected System.Web.UI.WebControls.Label lblNumberOfProfiles;
-		
-		protected System.Web.UI.WebControls.Label lblProfilesHealth;
-		
-		protected System.Web.UI.WebControls.Label lblCoverage;
-		
 		protected System.Web.UI.HtmlControls.HtmlGenericControl divEvents;
 		
 		protected System.Web.UI.WebControls.Calendar calendar1;

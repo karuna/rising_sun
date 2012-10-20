@@ -30,14 +30,6 @@ namespace AutoAssess.Web
 			html += "</ul>";
 			
 			divEvents.InnerHtml = html;
-			
-			IList<PersistentProfile> profiles = this.CurrentScanSession.CreateCriteria<PersistentProfile>()
-				.Add(Restrictions.Eq ("WebUserID", this.CurrentUser.ID))
-				.List<PersistentProfile>();
-			
-			lblNumberOfProfiles.Text = profiles.Count.ToString();
-			lblProfilesHealth.Text = "Poor";
-			lblCoverage.Text = "Excellent";
 		}
 
 	}

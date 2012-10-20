@@ -12,6 +12,12 @@ namespace AutoAssess.Data.PersistentObjects
 		{
 		}
 		
+		public PersistentProfileHost(ProfileHost host)
+		{
+			this.IPv4Address = host.IPv4Address;
+			this.Name = host.Name;
+		}
+		
 		public PersistentProfileHost(Guid owner)
 		{
 			DateTime now = DateTime.Now;
@@ -140,6 +146,18 @@ namespace AutoAssess.Data.PersistentObjects
 			
 			xml += "</profileHost>";
 			return xml;
+		}
+		
+		public virtual void SetCreationInfo(Guid owner)
+		{
+			DateTime now = DateTime.Now;
+			
+			this.ID = Guid.NewGuid();
+			this.CreatedBy = owner;
+			this.CreatedOn = now;
+			this.LastModifiedBy = owner;
+			this.LastModifiedOn = now;
+			this.IsActive = true;
 		}
 	}
 }

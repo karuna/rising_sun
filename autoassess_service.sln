@@ -39,8 +39,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "metasploit-sharp", "..\meta
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "openvas_examples", "openvas_examples\openvas_examples.csproj", "{A4E154AA-EB92-4F0C-BFF4-BF3CF0144299}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "import_nvds", "import_nvds\import_nvds.csproj", "{76BAE36B-B69B-43DF-87C8-6DE15D40E7C4}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "import_cves", "import_cves\import_cves.csproj", "{4E1706E1-EE76-4652-84A0-19BA6FDD8B98}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "wapiti_to_sqlmap_example", "wapiti_to_sqlmap_example\wapiti_to_sqlmap_example.csproj", "{BB43DD17-5236-49DA-92B4-5CBD03B6864D}"
@@ -52,8 +50,6 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "load_ovas_nss_nx_to_msf_and_save", "load_ovas_nss_nx_to_msf_and_save\load_ovas_nss_nx_to_msf_and_save.csproj", "{93EBAB27-73D4-4CAE-AF1C-0A5B9D67DBF8}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "nessus-sharp", "..\nessus-sharp\nessus-sharp.csproj", "{C5D9ABF5-AF33-4479-8237-EAE828C5BFCE}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "nexpose-sharp", "..\nexpose-sharp\nexpose-sharp\nexpose-sharp.csproj", "{35EDE3B5-13AE-4E8B-B699-50C48E1CCE17}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "openvas-sharp", "..\openvas-sharp\openvas-sharp.csproj", "{F133DABB-CC2F-4507-90C3-C1B20F9E66CF}"
 EndProject
@@ -84,16 +80,12 @@ Global
 		{35EDE3B5-13AE-4E8B-B699-50C48E1CCE17}.CoreProfile|Any CPU.ActiveCfg = Debug|Any CPU
 		{35EDE3B5-13AE-4E8B-B699-50C48E1CCE17}.CoreProfile|Any CPU.Build.0 = Debug|Any CPU
 		{35EDE3B5-13AE-4E8B-B699-50C48E1CCE17}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{35EDE3B5-13AE-4E8B-B699-50C48E1CCE17}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{35EDE3B5-13AE-4E8B-B699-50C48E1CCE17}.Debug|x86.Build.0 = Debug|Any CPU
 		{35EDE3B5-13AE-4E8B-B699-50C48E1CCE17}.Debug|x86.Build.0 = Debug|Any CPU
 		{35EDE3B5-13AE-4E8B-B699-50C48E1CCE17}.Instrument|Any CPU.ActiveCfg = Debug|Any CPU
 		{35EDE3B5-13AE-4E8B-B699-50C48E1CCE17}.Instrument|Any CPU.Build.0 = Debug|Any CPU
 		{35EDE3B5-13AE-4E8B-B699-50C48E1CCE17}.PerformanceTest|Any CPU.ActiveCfg = Debug|Any CPU
 		{35EDE3B5-13AE-4E8B-B699-50C48E1CCE17}.PerformanceTest|Any CPU.Build.0 = Debug|Any CPU
 		{35EDE3B5-13AE-4E8B-B699-50C48E1CCE17}.Release|x86.ActiveCfg = Release|Any CPU
-		{35EDE3B5-13AE-4E8B-B699-50C48E1CCE17}.Release|x86.ActiveCfg = Release|Any CPU
-		{35EDE3B5-13AE-4E8B-B699-50C48E1CCE17}.Release|x86.Build.0 = Release|Any CPU
 		{35EDE3B5-13AE-4E8B-B699-50C48E1CCE17}.Release|x86.Build.0 = Release|Any CPU
 		{48CB24EF-F501-463E-AC9C-95491A1E6D5B}.Debug|x86.ActiveCfg = Debug|Any CPU
 		{48CB24EF-F501-463E-AC9C-95491A1E6D5B}.Debug|x86.Build.0 = Debug|Any CPU
@@ -131,10 +123,6 @@ Global
 		{7406EF69-41DD-467A-90F9-BB34FBC39C0C}.Debug|x86.Build.0 = Debug|x86
 		{7406EF69-41DD-467A-90F9-BB34FBC39C0C}.Release|x86.ActiveCfg = Release|x86
 		{7406EF69-41DD-467A-90F9-BB34FBC39C0C}.Release|x86.Build.0 = Release|x86
-		{76BAE36B-B69B-43DF-87C8-6DE15D40E7C4}.Debug|x86.ActiveCfg = Debug|x86
-		{76BAE36B-B69B-43DF-87C8-6DE15D40E7C4}.Debug|x86.Build.0 = Debug|x86
-		{76BAE36B-B69B-43DF-87C8-6DE15D40E7C4}.Release|x86.ActiveCfg = Release|x86
-		{76BAE36B-B69B-43DF-87C8-6DE15D40E7C4}.Release|x86.Build.0 = Release|x86
 		{85624617-6B56-4A51-9B2C-D361B0604028}.Debug|x86.ActiveCfg = Debug|Any CPU
 		{85624617-6B56-4A51-9B2C-D361B0604028}.Debug|x86.Build.0 = Debug|Any CPU
 		{85624617-6B56-4A51-9B2C-D361B0604028}.Release|x86.ActiveCfg = Release|Any CPU
@@ -221,7 +209,7 @@ Global
 		{F133DABB-CC2F-4507-90C3-C1B20F9E66CF}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
-		StartupItem = AutoAssess.Web\AutoAssess.Web.csproj
+		StartupItem = autoassess_service\autoassess_service.csproj
 		Policies = $0
 		$0.DotNetNamingPolicy = $1
 		$1.DirectoryNamespaceAssociation = Flat
