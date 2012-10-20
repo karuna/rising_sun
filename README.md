@@ -94,13 +94,13 @@ on the UUID contrib extension.
 
 
 cat AutoAssess.Web.API/Database/AutoAssess_Service/Initial.sql | psql -h
-127.0.0.1 -U postgres
+127.0.0.1 -U postgres -d autoassess
 
 cat AutoAsses.Web.API/Database/AutoAssess_Service/SeedService.sql | psql
--h 127.0.0.1 -U postgres
+-h 127.0.0.1 -U postgres -d autoassess
 
 cat AutoAssess.Web.API/Database/AutoAssess_Web/Initial.sql | psql -h
-127.0.0.1 -U postgres
+127.0.0.1 -U postgres -d autoassess_web
 
 
 Once you have created and seeded the db, you will nee dto extract two
