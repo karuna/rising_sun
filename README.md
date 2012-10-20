@@ -59,3 +59,58 @@ Also, you are going to see a lot of crappy code (mainly in the UI) :/
 Usually my testbed is a vulnerable FreeNAS release, an altered (TWiki
 removed) Metasploitable2, avulnerable Windows XP machine, and BadStore, 
 though it can depend on what I am testing.
+
+
+Setup
+=====
+
+
+Installation isn't 100% straight-forward. You will need to edit the
+project .config files to point to your correct tools and servers. You
+must also set the databases up.
+
+You will need to checkout my C# bindings for nessus, nexpose, openvas,
+and metasploit:
+
+
+  git clone https://github.com/brandonprry/nexpose-sharp.git
+
+  git clone https://github.com/brandonprry/nessus-sharp.git
+
+  git clone https://github.com/brandonprry/openvas-sharp.git
+
+  git clone https://github.com/brandonprry/metasploit-sharp.git
+
+
+You will need to update your projects to point to these.
+
+
+On your PGSql DB, create a database called autoassess and
+autoassess_web.
+
+
+Ensure you have the contrib package for pgsql installed because I rely
+on the UUID contrib extension.
+
+
+cat AutoAssess.Web.API/Database/AutoAssess_Service/Initial.sql | psql -h
+127.0.0.1 -U postgres
+
+cat AutoAsses.Web.API/Database/AutoAssess_Service/SeedService.sql | psql
+-h 127.0.0.1 -U postgres
+
+cat AutoAssess.Web.API/Database/AutoAssess_Web/Initial.sql | psql -h
+127.0.0.1 -U postgres
+
+
+Once you have created and seeded the db, you will nee dto extract two
+values from it and update you web.config and app.config for Web and
+Service. You need to select * from "user"; in autoassess_service and
+grab the clientID and userID. Update these values in your configs with
+the values in the database.
+
+Web relies on the API, and an external state server
+(start_state_server), so these must be started before browsing the web
+UI.
+
+
