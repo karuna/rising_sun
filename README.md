@@ -116,4 +116,5 @@ UI.
 
 When all is said and done and working, you can see this in your browser on http://127.0.0.1:8081/
 
-http://imgur.com/8J00t
+
+http://i.imgur.com/8J00t.png
