@@ -26,17 +26,21 @@ namespace AutoAssess.Data.Nexpose.PersistentObjects
 			this.PersistentServices = new List<PersistentNexposeHostService>();
 			this.PersistentHostTests = new List<PersistentNexposeHostTest>();
 			
-			foreach (var fp in asset.Fingerprints)
-				this.PersistentFingerprints.Add(new PersistentNexposeHostFingerprint(fp));
+			if (asset.Fingerprints != null)
+				foreach (var fp in asset.Fingerprints)
+					this.PersistentFingerprints.Add(new PersistentNexposeHostFingerprint(fp));
 			
-			foreach (var name in asset.Names)
-				this.PersistentNames.Add(new PersistentNexposeHostName(name));
+			if (asset.Names != null)
+				foreach (var name in asset.Names)
+					this.PersistentNames.Add(new PersistentNexposeHostName(name));
 			
-			foreach (var service in asset.Services)
-				this.PersistentServices.Add(new PersistentNexposeHostService(service));
+			if (asset.Services != null)
+				foreach (var service in asset.Services)
+					this.PersistentServices.Add(new PersistentNexposeHostService(service));
 			
-			foreach (var test in asset.HostTests)
-				this.PersistentHostTests.Add(new PersistentNexposeHostTest(test));
+			if (asset.HostTests != null)
+				foreach (var test in asset.HostTests)
+					this.PersistentHostTests.Add(new PersistentNexposeHostTest(test));
 		}
 		
 		public virtual Guid ID { get; set; }
