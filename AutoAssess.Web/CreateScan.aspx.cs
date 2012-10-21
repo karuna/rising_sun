@@ -68,8 +68,6 @@ namespace AutoAssess.Web
 			parms.Add("Name", txtScanName.Text);
 			parms.Add("ParentProfileID", this.CurrentProfile.ID.ToString());
 			parms.Add("ScanIsBasicBruteforce", "true");			
-			parms.Add("ScanIsSQLMap", "true");
-			parms.Add("ScanIsDSXS", "true");
 			parms.Add("ScanIsOpenVAS", "true");
 			parms.Add("ScanIsNessus", "true");
 			parms.Add("ScanIsNexpose", "true");
@@ -87,8 +85,6 @@ namespace AutoAssess.Web
 			parms.Add("Name", txtScanName.Text);
 			parms.Add("ParentProfileID", this.CurrentProfile.ID.ToString());
 			parms.Add("ScanIsOpenVAS", "true");
-			parms.Add("ScanIsSQLMap", "true");
-			parms.Add("ScanIsDSXS", "true");
 			parms.Add("ScanIsNessus", "true");
 			parms.Add("ScanIsNexpose", "true");
 			parms.Add("ScanIsMetasploit", "true");

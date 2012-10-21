@@ -209,7 +209,7 @@ Global
 		{F133DABB-CC2F-4507-90C3-C1B20F9E66CF}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
-		StartupItem = autoassess_service\autoassess_service.csproj
+		StartupItem = AutoAssess.Web\AutoAssess.Web.csproj
 		Policies = $0
 		$0.DotNetNamingPolicy = $1
 		$1.DirectoryNamespaceAssociation = Flat
