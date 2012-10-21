@@ -105,7 +105,7 @@ cat AutoAssess.Web.API/Database/AutoAssess_Web/Initial.sql | psql -h
 
 Once you have created and seeded the db, you will nee dto extract two
 values from it and update you web.config and app.config for Web and
-Service. You need to select * from "user"; in autoassess_service and
+Service. You need to select * from "user"; in the autoassess database and
 grab the clientID and userID. Update these values in your configs with
 the values in the database.
 
