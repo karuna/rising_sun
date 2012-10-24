@@ -1,35 +1,20 @@
 ﻿<Properties GitUserInfo="UsingGIT">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="autoassess_service/app.config">
+  <MonoDevelop.Ide.Workbench ActiveDocument="AutoAssess.Data.Nessus.PersistentObjects/AssemblyInfo.cs">
     <Files>
       <File FileName="autoassess_service/Main.cs" Line="82" Column="61" />
-      <File FileName="AutoAssess.Data.PersistentObjects/PersistentProfileHost.cs" Line="46" Column="40" />
-      <File FileName="AutoAssess.Web/ViewProfile.aspx.cs" Line="58" Column="4" />
-      <File FileName="AutoAssess.Web/ViewHost.aspx.cs" Line="77" Column="36" />
-      <File FileName="autoassess_service/app.config" Line="19" Column="48" />
-      <File FileName="AutoAssess.Data.Nexpose.PersistentObjects/PersistentNexposeAsset.cs" Line="28" Column="4" />
-      <File FileName="AutoAssess.Web/web.config" Line="10" Column="16" />
+      <File FileName="AutoAssess.Data.PersistentObjects/PersistentProfileHost.cs" Line="1" Column="1" />
+      <File FileName="AutoAssess.Web/ViewProfile.aspx.cs" Line="1" Column="1" />
+      <File FileName="AutoAssess.Web/ViewHost.aspx.cs" Line="1" Column="1" />
+      <File FileName="autoassess_service/app.config" Line="18" Column="53" />
+      <File FileName="AutoAssess.Data.Nexpose.PersistentObjects/PersistentNexposeAsset.cs" Line="1" Column="1" />
+      <File FileName="AutoAssess.Web/web.config" Line="1" Column="1" />
+      <File FileName="AutoAssess.Data.Nessus.PersistentObjects/AssemblyInfo.cs" Line="7" Column="58" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State expanded="True">
-          <Node name="AutoAssess.Data.BusinessObjects" expanded="True" />
-          <Node name="AutoAssess.Data.Nexpose.PersistentObjects" expanded="True" />
-          <Node name="AutoAssess.Data.PersistentObjects" expanded="True" />
-          <Node name="AutoAssess.Web" expanded="True">
-            <Node name="CreateProfile.aspx" expanded="True" />
-            <Node name="ViewHost.aspx" expanded="True" />
-            <Node name="ViewProfile.aspx" expanded="True" />
-          </Node>
-          <Node name="AutoAssess.Web.API" expanded="True">
-            <Node name="Database" expanded="True">
-              <Node name="AutoAssess_Service" expanded="True" />
-            </Node>
-            <Node name="CreateProfile.ashx" expanded="True" />
-          </Node>
-          <Node name="autoassess_service" expanded="True">
-            <Node name="app.config" selected="True" />
-          </Node>
+          <Node name="AutoAssess.Data.Nessus.PersistentObjects" expanded="True" selected="True" />
         </State>
       </Pad>
       <Pad Id="ClassPad">

@@ -9,7 +9,6 @@
     <OutputType>Library</OutputType>
     <RootNamespace>AutoAssess.Data.OpenVAS.PersistentObjects</RootNamespace>
     <AssemblyName>AutoAssess.Data.OpenVAS.Objects</AssemblyName>
-    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
