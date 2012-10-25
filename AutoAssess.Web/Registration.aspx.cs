@@ -55,7 +55,7 @@ namespace AutoAssess.Web
 				vkey.CreatedOn = now;
 				vkey.LastModifiedBy = Guid.Empty;
 				vkey.LastModifiedOn = now;
-				vkey.IsVerifed = false;
+				vkey.IsVerifed = true;
 				vkey.IsSent = true; //sending below
 				vkey.User = user;
 				
@@ -72,8 +72,6 @@ namespace AutoAssess.Web
 					t.Rollback();
 					throw ex;
 				}
-				
-				SendVerificationEmail(info.FirstName + " " + info.LastName, user.EmailAddress, user.ID.ToString(), vkey.Key.ToString());
 					
 				Response.Redirect("Login.aspx");
 			}
